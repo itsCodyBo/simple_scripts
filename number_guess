@@ -1,0 +1,19 @@
+# collatz fnction pg 101 ATBS
+
+def collatz(number):
+	if number%2==0:
+		print number/2
+	else:
+		print 3 * number + 1
+
+def user_guess(number):
+	user_input = collatz(number)
+	while user_input != 1:
+		continue
+		break
+	
+	
+	
+
+print user_guess(4)
+		
